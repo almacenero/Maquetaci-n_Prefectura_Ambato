@@ -1,4 +1,4 @@
 # Maquetacion_Prefectura_Ambato
 
-##Boostrap ver:
+## Boostrap ver:
  4.5
