@@ -18,7 +18,13 @@
   margin-top: 15px;
 }
 
-.container_Image_2_3 {
+.container_headers {
   margin-top: 5px;
   padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+#container_meteorologic {
+  margin-left: 100px;
+  margin-right: 300px;
 }
