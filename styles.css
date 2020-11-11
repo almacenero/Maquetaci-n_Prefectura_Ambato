@@ -6,6 +6,19 @@
   text-align: center;
 }
 
+.header_text {
+  font-size: 1.8em;
+}
+
 .menus {
   font-size: 0.8em;
+}
+
+.container_imgage1 {
+  margin-top: 15px;
+}
+
+.container_Image_2_3 {
+  margin-top: 5px;
+  padding-bottom: 10px;
 }
