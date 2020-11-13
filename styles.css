@@ -1,17 +1,42 @@
 .my_container {
   border-style: solid;
 }
-
+#header_first_row {
+  background-color: #3a6432;
+}
+#header_second_row {
+  background-color: #449237;
+  color: white;
+}
+#header_third_row {
+  background-color: #7eb033;
+  padding: 5px;
+}
 .header_element {
   text-align: center;
 }
 
 .header_text {
   font-size: 1.8em;
+  color: white;
 }
 
+#header_second_text {
+  font-family: Darkline;
+  font-size: 1.6em;
+}
+#Logo_HGPT {
+  margin-top: 10px;
+}
+
+#Logo_GEO {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .menus {
-  font-size: 0.8em;
+  font-size: 0.7em;
+  padding-top: 50px;
+  font-weight: bold;
 }
 
 .container_imgage1 {
@@ -27,4 +52,30 @@
 #container_meteorologic {
   margin-left: 100px;
   margin-right: 300px;
+}
+
+@font-face {
+  font-family: "Darkline";
+  src: url("fonts/Darkline.ttf") format("truetype");
+}
+
+#row_gray_degrade {
+  background: rgb(153, 168, 178);
+  background: linear-gradient(
+    90deg,
+    rgba(153, 168, 178, 1) 48%,
+    rgba(236, 232, 232, 1) 80%
+  );
+  color: white;
+  padding: 3px;
+  font-weight: bold;
+}
+
+#login {
+  padding-top: 6px;
+  color: black;
+}
+
+#welcome {
+  font-size: 1.6em;
 }
