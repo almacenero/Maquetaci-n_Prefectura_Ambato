@@ -54,11 +54,6 @@
   margin-right: 300px;
 }
 
-@font-face {
-  font-family: "Darkline";
-  src: url("fonts/Darkline.ttf") format("truetype");
-}
-
 #row_gray_degrade {
   background: rgb(153, 168, 178);
   background: linear-gradient(
@@ -78,4 +73,28 @@
 
 #welcome {
   font-size: 1.6em;
+}
+
+#goberment_name {
+  font-family: Panton-Bold;
+  font-size: 1.2em;
+}
+
+#main_site_title {
+  font-family: Panton-Regular;
+}
+
+@font-face {
+  font-family: "Darkline";
+  src: url("fonts/Darkline.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Panton-Bold";
+  src: url("fonts/Panton-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Panton-Regular";
+  src: url("fonts/Panton-Regular.otf") format("truetype");
 }
