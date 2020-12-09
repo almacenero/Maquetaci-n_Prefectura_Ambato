@@ -7,6 +7,7 @@
 #header_second_row {
   background-color: #449237;
   color: white;
+  padding-top: 10px;
 }
 #header_third_row {
   background-color: #7eb033;
@@ -81,13 +82,20 @@
   font-family: Panton-Bold;
   font-size: 1.2em;
 }
+.goberment_name_text {
+  justify-content: center;
+  line-height: 15px;
+}
+#honorable {
+  align-content: center;
+}
+
+.goberment_name_text_first {
+  margin-bottom: 10;
+}
 
 #main_site_title {
   font-family: Panton-Regular;
-}
-
-#sponsors {
-  padding-top: 20px;
 }
 
 @font-face {
@@ -103,4 +111,9 @@
 @font-face {
   font-family: "Panton-Regular";
   src: url("fonts/Panton-Regular.otf") format("truetype");
+}
+
+#sponsors {
+  padding-right: 18px;
+  margin-top: 10px;
 }
